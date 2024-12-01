@@ -20,12 +20,24 @@ header h2:hover{
 }
 
 header h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: cadetblue; 
     border-radius: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+header h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 header td {
     text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 0px;
 }
 
 .main {
@@ -48,21 +60,24 @@ h1 {
 }
 
 body {
+    font-size: 18px;
     background-color: cadetblue;
 }
 
 .contents {
-    padding-top: 100px;
+    padding-top: 8%;
     display: flex;
     justify-content: center;         
 }
 
 .left {
     align-self: flex-start;  
+    padding-right: 5px;
 }
 
 .right {
-    align-self: flex-end;    
+    align-self: flex-end;   
+    padding-left: 5px; 
 }
 
 td.bordered {
